@@ -1,0 +1,75 @@
+
+.our-masters{
+    background-color: var(--second-bg-section-color);
+
+    &__container{
+        @media screen and (min-width:768px) and (max-width:1279px) {
+        padding: 0 159px;
+        }
+    }
+    
+    &__list{
+        margin-bottom: -64px;
+        @media screen and (min-width:1280px){
+            display: flex;
+            gap: 30px;
+        }
+    }
+    &__card{
+        margin-bottom: 64px;
+        @media screen and (min-width:1280px) {
+        max-width: 370px;
+    }
+    }
+    &__title{
+        margin-bottom: 44px;
+    }
+    &__name {
+    font-size: 18px;
+    line-height: 1.39;
+    color: var(--main-title-color);
+    margin-bottom: 8px;
+}
+
+    &__position {
+    line-height: 1.36;
+    color: var(--action-color);
+    margin-bottom: 30px;
+}
+    &__foto{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    &__content-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+}
+
+.social-list{
+    display: flex;
+    gap: 10px;
+    transition: box-shadow 250ms linear;
+    &:hover .social-list__link,
+    &:focus .social-list__link{
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    &__link{
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #ffffff;
+        transition: box-shadow 250ms linear, fill 250ms linear;
+        display: flex;
+                
+        &:hover,
+        &:focus{
+        fill: var(--action-color);
+        }
+    }
+}

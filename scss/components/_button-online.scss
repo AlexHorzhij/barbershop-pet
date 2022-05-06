@@ -1,0 +1,25 @@
+.btn-online {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    border: 1px solid var(--action-color);
+    box-sizing: border-box;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: transparent;
+    transition: background-color 250ms linear, color 250ms linear;
+    &:hover,
+    &:focus{
+            background-color: var(--action-color);
+            color: var(--dark-bg-title-text);
+    }
+}
+
+.btn-online-dark{
+    color: var(--dark-bg-title-text);
+    display: block;
+    margin: 0 auto;
+}

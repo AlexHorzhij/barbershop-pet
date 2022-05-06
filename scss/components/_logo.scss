@@ -1,0 +1,13 @@
+.logo {
+    width: 66px;
+    height: 56px;
+    fill: var(--dark-bg-title-text);
+    @media screen and (min-width: 768px) {
+        fill: #000000;    }
+}
+.logo-mobile{
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}
+

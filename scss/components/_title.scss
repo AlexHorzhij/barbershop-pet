@@ -1,0 +1,44 @@
+.title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+    @media screen and (min-width: 1280px) {
+        font-size: 42px;
+        line-height: 1.17;
+    }
+    }
+
+.overtitle {display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--main-title-color);
+    margin-bottom: 20px;
+        &::before {
+            display: inline-block;
+            content: "";
+            width: 60px;
+            height: 1px;
+            background-color: var(--main-title-color);
+            margin-right: 20px;
+}
+}
+
+.discription {
+    font-size: 16px;
+    line-height: 1.62;
+    color: var(--main-text-color);
+    letter-spacing: 0.02em;
+
+    @media screen and (min-width: 1280px) {
+        font-size: 18px;
+        line-height: 1.67;
+    }
+}
+
