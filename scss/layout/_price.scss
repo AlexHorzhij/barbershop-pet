@@ -7,7 +7,7 @@
 
 .price {
 
-    @media screen and (max-width:767px) {
+    @media screen and (max-width:767.98px) {
         background-image: url("/images/price/price-mobile.png"), linear-gradient(#111319, #111319);
         background-repeat: no-repeat;
         background-size: cover;
@@ -86,7 +86,7 @@
     background-size: cover;
     height: auto;
 
-    @media screen and (max-width: 1279px) {
+    @media screen and (max-width: 1279.98px) {
         background-image: url("/images/price/price-bg-tablet-list.png");
         max-width: 1280px;
         padding: 30px 40px;
@@ -94,7 +94,7 @@
         line-height: 1.67;
     }
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 767.98px) {
         background-image: url("/images/price/price-bg-mobile-list.png");
         max-width: 767px;
         padding: 30px 30px;

@@ -7,7 +7,7 @@
         right: 20px;
 
         @media screen and (min-width: 768px) {
-                display: none;
+            display: none;
         }
     }
 }
@@ -15,7 +15,7 @@
 .logo-header {
     margin-right: 60px;
     @media screen and (min-width: 1280px) {
-    margin-right: 70px;
+        margin-right: 70px;
     }
 }
 
@@ -93,7 +93,7 @@
 
             &:hover,
             &:focus{
-            color: var(--action-color);
+                color: var(--action-color);
             }
     }
 
@@ -105,7 +105,7 @@
             margin-top: 40px;
         }
         @media screen and (min-width: 1280px) {
-        margin-top: 0px;    
+            margin-top: 0px;    
         }
     }
 }
